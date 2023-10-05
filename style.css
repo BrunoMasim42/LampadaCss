@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle, #5a5a5a, black);
+    background: radial-gradient(circle, #3a3a3a, black);
+}
+
+.lampada-container{
+    width: 350px;
+    height: 450px;
+    /*background: #b1b0a7;*/
+    align-items:center;
+    display:inline-block;
+    justify-content: center;
+}
+
+.lampada-topo{
+    width: 75.5px;
+    height: 15px;
+    flex-shrink: 0;
+    background-color: #6A5858;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 10px;
+    
+}
+
+.lampada-centro{
+   
+    width: 138px;
+    height: 98px;
+    flex-shrink: 0;
+   margin-top: 0px;
+    margin-left: 90px;
+    background-color: #267EAF;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 30px;
+    
+}
+
+
+
+.lampada{
+ 
+    background: #dddddce5;
+    width: 230px;
+    height: 260px;
+    top: 10px;
+    margin-left: 47px;
+    transform: rotate(-180deg);
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 200px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.lampada:hover{
+    background: radial-gradient(circle, #b4a803, #e2f10b );
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 20px rgba(164, 167, 2, 0.4);
+}
